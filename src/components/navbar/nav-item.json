@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_navbar_nav_items",
+  "info": {
+    "displayName": "NavItem",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string",
+      "required": true
+    },
+    "Link": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "SubItem": {
+      "displayName": "SubNavbarItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "navbar.sub-navbar-item"
+    },
+    "IsShown": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    }
+  }
+}

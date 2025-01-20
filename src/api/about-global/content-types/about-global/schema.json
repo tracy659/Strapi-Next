@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_globals",
+  "info": {
+    "singularName": "about-global",
+    "pluralName": "about-globals",
+    "displayName": "AboutGlobal"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "About": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "about.about"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_news_news",
+  "info": {
+    "displayName": "News",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "news_collections": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::news-collection.news-collection"
+    }
+  }
+}

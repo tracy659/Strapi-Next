@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "news_globals",
+  "info": {
+    "singularName": "news-global",
+    "pluralName": "news-globals",
+    "displayName": "NewsGlobal"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "News": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "news.news"
+    }
+  }
+}

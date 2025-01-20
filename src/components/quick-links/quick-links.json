@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_quick_links_quick_links",
+  "info": {
+    "displayName": "QuickLinks",
+    "icon": "monitor"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Logo": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
